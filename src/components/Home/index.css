@@ -1,0 +1,53 @@
+/* Ensure this CSS is applied to the Home component */
+
+.home {
+    background-image: url('https://img.freepik.com/free-photo/person-traveling-enjoying-their-vacation_23-2151383050.jpg?t=st=1722924474~exp=1722928074~hmac=c0c903a11d2ea34aff1040ac10b13177525a2cbabf286cc3a525a92e0cf5f3dc&w=1380'); /* Update with the path to your background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff; /* Text color */
+  }
+  
+  .home__content {
+    max-width: 600px; /* Adjust based on your design */
+    padding: 1rem;
+  }
+  
+  .home__title {
+    font-size: 3rem; /* Adjust as needed */
+    margin-bottom: 1rem;
+  }
+  
+  .home__subtitle {
+    font-size: 1.25rem; /* Adjust as needed */
+    margin-bottom: 2rem;
+    font-style: italic;
+    color:#E6FF94;
+  }
+  
+  .home__button {
+    background-color: #40A578; /* Button color */
+    border: none;
+    color: #fff;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .home__button:hover {
+    background-color: #9DDE8B; /* Darker button color on hover */
+  }
+  @media (max-width:768px){
+    .home__title {
+        font-size: 2rem; /* Adjust as needed */
+        margin-bottom: 1rem;
+        margin-top:100px;
+      }
+  }
